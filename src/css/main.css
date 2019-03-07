@@ -119,6 +119,7 @@ div.header-logo ul li a {
     z-index: -2;
     zoom: 1;
     padding: 5px;
+    margin: -2px -2px;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
