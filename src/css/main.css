@@ -119,7 +119,6 @@ div.header-logo ul li a {
     z-index: -2;
     zoom: 1;
     padding: 5px;
-    margin: -2px -2px;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,8 +135,9 @@ div.header-logo ul li a {
     position: fixed;
     left: 0;
     top: 0;
+    margin: 0px auto;
     background: inherit;
-    filter: blur(10px);
+    filter: blur(5px);
     z-index: -2;
 }
 
