@@ -1,19 +1,28 @@
-
 * {
     margin: 0px;
     font-size: 20px;
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.header-logo {
-    margin: 10px,5px;
+
+html {
+    overflow: sroll;
 }
+
+.header-logo {
+    margin: 10px, 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
 a.logo {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
-#logo,#home,#other,#about{
+
+#logo, #home, #other, #about {
     font-weight: normal;
     line-height: 32px;
     padding: 8px;
@@ -24,23 +33,23 @@ a.logo {
     white-space: nowrap;
 }
 
-
 p {
     margin-left: 10px;
     display: inline;
 }
+
 header {
     position: absolute;
     width: 100%;
-    background-color: rgba(20,20,20,.02);
+    background-color: rgba(20, 20, 20, .02);
     z-index: 0;
-
-    
 }
-div.header-logo a{
+
+div.header-logo a {
     float: left;
     align-items: center;
 }
+
 div.header-logo ul {
     display: flex;
     flex-direction: row;
@@ -50,11 +59,12 @@ div.header-logo ul {
     align-items: center;
     margin-right: 10px;
 }
-div.header-logo ul li a{
+
+div.header-logo ul li a {
     text-decoration: none;
 }
 
-#bg{
+#bg {
     display: flexbox;
     width: 100%;
     background-repeat: no-repeat;
@@ -69,6 +79,7 @@ div.header-logo ul li a{
     height: 100%;
     z-index: -1;
 }
+
 .blur {
     position: fixed;
     top: 0;
@@ -80,13 +91,12 @@ div.header-logo ul li a{
     padding: 5px;
     box-sizing: border-box;
     background-repeat: no-repeat;
-    
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
-    
     background-position: center 0;
 }
+
 .blur:after {
     content: "";
     width: 100%;
@@ -96,6 +106,5 @@ div.header-logo ul li a{
     top: 0;
     background: inherit;
     filter: blur(5px);
-    z-index: 2;
+    z-index: -1;
 }
-
