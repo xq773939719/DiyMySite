@@ -4,8 +4,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html {
-    overflow: sroll;
+html {}
+
+body #logo img{
+    margin-left: 10px;
 }
 
 .header-logo {
@@ -41,8 +43,8 @@ p {
 header {
     position: absolute;
     width: 100%;
-    background-color: rgba(20, 20, 20, .02);
-    z-index: 0;
+    background-color: rgba(20, 20, 20, .2);
+    z-index: 10;
 }
 
 div.header-logo a {
@@ -95,16 +97,63 @@ div.header-logo ul li a {
     -webkit-background-size: cover;
     -o-background-size: cover;
     background-position: center 0;
+    z-index: -2;
 }
 
 .blur:after {
     content: "";
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background: inherit;
-    filter: blur(5px);
-    z-index: -1;
+    filter: blur(10px);
+    z-index: -2;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px;
+    text-align: center;
+    overflow: auto;
+    z-index: 2;
+    
+}
+
+.container::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.item-list:first-child {
+    margin-top: 50px;
+}
+
+.item {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+    
+    justify-content: center;
+}
+
+.item a,h2, p {
+    text-align: center;
+    margin: auto 0px;
+    color: #cccccc;
 }
