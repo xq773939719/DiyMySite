@@ -69,7 +69,7 @@ a.logo {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: rgba(20, 20, 20, 0);
     z-index: 10;
