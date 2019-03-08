@@ -12,19 +12,23 @@
 }
 
 .blog {
+    
     display: flex;
     flex-direction: column;
     justify-content: left;
     padding: 20px 60px;
     margin: auto auto;
     max-width: 900px;
-    border: 1px solid #eeeeee;
     border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.blog *{
+    color: black;
+}
+.blog p,pre{
+    font-size: 12px;
 }
 
-.blog {
-    font-size: 10px;
-}
 @media (max-width:600px) {
     .blog {
         padding: 20px 10px;
