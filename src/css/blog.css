@@ -12,7 +12,7 @@
 }
 
 .blog {
-    
+
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -20,12 +20,15 @@
     margin: auto auto;
     max-width: 900px;
     border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(20, 20, 20, 0.5);
 }
-.blog *{
-    color: black;
+
+.blog * {
+    color: whitesmoke;
 }
-.blog p,pre{
+
+.blog p,
+pre {
     font-size: 12px;
 }
 
