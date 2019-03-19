@@ -113,7 +113,7 @@ div.header-logo ul li a {
     border-radius: 4px;
     height: 60%;
     width: 100%;
-    background: url("https://api.imalan.cn/random/?c=unsplash&s=large&r=img") center center no-repeat;
+    background: url("https://pictures-1257961856.cos.ap-shanghai.myqcloud.com/background/bg.jpg") center center no-repeat;
     background-size: cover;
     z-index: -1;
 }
