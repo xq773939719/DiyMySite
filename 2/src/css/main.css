@@ -110,7 +110,9 @@ div.header-logo ul li a {
 
 #bg {
     display: flexbox;
-    border-radius: 4px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
     height: 60%;
     width: 100%;
     background: url("https://pictures-1257961856.cos.ap-shanghai.myqcloud.com/background/bg.jpg") center center no-repeat;
@@ -124,7 +126,7 @@ div.header-logo ul li a {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    top: -15%;
+    top: -100px;
     padding: 50px 20px;
     border-radius: 4px;
     flex-wrap: wrap;
@@ -135,8 +137,7 @@ div.header-logo ul li a {
     border-radius: 4px;
     height: 300px;
     width: 400px;
-    margin: 5px 5px;
-
+    margin: 10px;
 
 }
 
