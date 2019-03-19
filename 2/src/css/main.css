@@ -1,0 +1,63 @@
+* {
+    color: white;
+    margin: 0px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+#bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flexbox;
+    border-radius: 4px;
+    height: 60%;
+    width: 100%;
+    background-image: url("https://api.imalan.cn/random/?c=unsplash&s=large&r=img");
+    z-index: -1;
+}
+
+#cards {
+    position: relative;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    top: -15%;
+    padding: 50px 100px;
+    border-radius: 4px;
+
+}
+
+.item {
+    position: relative;
+    border-radius: 4px;
+    height: 200px;
+    width: 100%;
+    background-color: #eeeeee99;
+    margin: 10px;
+
+
+}
+
+.banner {
+    display: inline;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 400px;
+    background-image: url("https://api.imalan.cn/random/?c=unsplash&s=large&r=img");
+}
