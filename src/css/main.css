@@ -35,7 +35,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    min-height: 600px;
+    height: 100%;
     margin: 0px auto;
 
 }
@@ -43,7 +43,14 @@ body {
     .address a{
         width: 80%;
         display: block;
-    } 
+    }
+    #title {
+        display: none;
+    }
+    #container {
+        height: max-content;
+    
+    }
 
 }
 
