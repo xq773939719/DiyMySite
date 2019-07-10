@@ -3,8 +3,10 @@ function banner() {
 
 
     for (var i = 0; i < itemList.length; i++) {
-        var str = 'https://api.imalan.cn/random/?c=unsplash&s=large&r=img?t=' + Math.random() * 20;
+        var str = 'https://api.dujin.org/pic/?t=' + Math.random() * 30;
         itemList[i].style.backgroundImage = "url(" + str + ")";
 
     }
 }
+
+/* https://api.imalan.cn/random/?c=unsplash&s=large&r=img?t=*/
