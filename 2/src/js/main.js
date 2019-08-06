@@ -3,7 +3,7 @@ function banner() {
 
 
     for (var i = 0; i < itemList.length; i++) {
-        var str = 'https://api.dujin.org/pic/?t=' + Math.random() * 30;
+        var str = 'https://api.uuz.bid/random?t=' + Math.random() * 30;
         itemList[i].style.backgroundImage = "url(" + str + ")";
 
     }

@@ -99,7 +99,7 @@ div.header-logo ul li a {
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("https://api.imalan.cn/random/?c=unsplash&s=large&r=img");
+    background-image: url("https://api.uuz.bid/random");
 }
 
 .mask {
